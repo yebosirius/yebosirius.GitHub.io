@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Page Not Found | 杏花疏影里，吹笛到天明</title><meta name="author" content="Hoshino"><meta name="copyright" content="Hoshino"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Page Not Found | 杏花疏影里，吹笛到天明</title><meta name="author" content="Hoshino"><meta name="copyright" content="Hoshino"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="ffffff"><meta property="og:type" content="website">
 <meta property="og:title" content="杏花疏影里，吹笛到天明">
 <meta property="og:url" content="http://example.com/404.html">
 <meta property="og:site_name" content="杏花疏影里，吹笛到天明">
@@ -11,7 +11,7 @@
   algolia: undefined,
   localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found"}},
   translate: undefined,
-  noticeOutdate: undefined,
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
   highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":230},
   copy: {
     success: 'Copy Successful',
@@ -51,7 +51,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-12-25 21:01:10'
+  postUpdate: '2023-12-25 21:04:52'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -125,7 +125,7 @@
       win.activateLightMode = () => {
         document.documentElement.setAttribute('data-theme', 'light')
         if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'ffffff')
         }
       }
       const t = saveToLocal.get('theme')
