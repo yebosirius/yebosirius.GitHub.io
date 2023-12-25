@@ -24,6 +24,12 @@
         <content type="html"><![CDATA[<h2 id="第一篇文章的tag"><a href="#第一篇文章的tag" class="headerlink" title="第一篇文章的tag"></a>第一篇文章的tag</h2>]]></content>
       
       
+      <categories>
+          
+          <category> tags </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -66,22 +72,11 @@
     
     
     <entry>
-      <title>movies</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>test</title>
+      <link href="/link/test.html"/>
+      <url>/link/test.html</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="this-is-a-test"><a href="#this-is-a-test" class="headerlink" title="this is a test"></a>this is a test</h2>]]></content>
       
     </entry>
     
